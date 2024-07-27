@@ -1,16 +1,20 @@
-## Hi there 👋
+## Hi there!👋 Welcome to my GitHub!
 
-<!--
-**Ymmy833y/Ymmy833y** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Profile 🤴
+### Language
+- Java
+- JavaScript
+- TypeScript
+- Python
 
-Here are some ideas to get you started:
+### Stats
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ymmy833y&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ymmy833y&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Ymmy833y&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ymmy833y&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Ymmy833y&theme=tokyonight&utcOffset=9)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Trophy
+![trophy](https://github-profile-trophy.vercel.app/?username=Ymmy833y&theme=gruvbox)
+
+In short, I'm still a "YowaYowa" programmer.
