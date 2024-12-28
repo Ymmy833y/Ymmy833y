@@ -14,5 +14,3 @@
 
 ### Trophy
 ![trophy](https://github-profile-trophy.vercel.app/?username=Ymmy833y&theme=gruvbox)
-
-In short, I'm still a "YowaYowa" programmer.
