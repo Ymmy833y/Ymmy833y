@@ -1,9 +1,9 @@
 name: Generate Trophy SVG
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "* */24 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,21 +12,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-name: Generate Trophy SVG
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Generate trophy
         uses: ryo-ma/github-profile-trophy@master
