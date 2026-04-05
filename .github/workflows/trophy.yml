@@ -12,19 +12,34 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+name: Generate Trophy SVG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
 
       - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: ryo-ma/github-profile-trophy@master
         with:
           username: Ymmy833y
-          output_path: assets/trophy.svg
+          output_path: trophy.svg
+          theme: tokyonight
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/trophy.svg
+          git add trophy.svg
           git diff --cached --quiet || git commit -m "chore: update trophy svg"
           git push

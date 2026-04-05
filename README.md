@@ -83,7 +83,7 @@ Web アプリケーション開発を軸に、**Java / TypeScript / Python** を
 </p>
 
 <p align="center">
-  <img src="./assets/trophy.svg" alt="GitHub trophies" />
+  <img src="./trophy.svg" alt="GitHub trophies" />
 </p>
 
 <p align="center">
