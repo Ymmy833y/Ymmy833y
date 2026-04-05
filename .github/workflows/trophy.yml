@@ -15,11 +15,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Clean broken path if exists
+        run: |
+          rm -rf trophy.svg
+
       - name: Generate trophy
         uses: ryo-ma/github-profile-trophy@master
         with:
           username: Ymmy833y
-          output_path: trophy.svg
+          output_path: ./trophy.svg
           theme: tokyonight
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,6 +31,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add trophy.svg
+          git add ./trophy.svg
           git diff --cached --quiet || git commit -m "chore: update trophy svg"
           git push
