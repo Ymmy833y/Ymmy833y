@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/Ymmy833y/Ymmy833y/main/profile-summary-card-output/nightowl/4-productive-time.svg)
-```
-
-    
