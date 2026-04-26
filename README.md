@@ -23,10 +23,6 @@
   <img src="https://komarev.com/ghpvc/?username=Ymmy833y&style=for-the-badge&color=6366F1" alt="Profile views" />
 </p>
 
-## About Me
-
-Web アプリケーション開発を軸に、**Java / TypeScript / Python** を行き来しながら、LLM 連携、MCP / GitHub Copilot 活用、開発者向けツールづくりを続けています。公開リポジトリでは、Spring Boot ベースの AI 連携アプリ、Chrome 拡張、TypeScript 製 CLI、Python / Flask 製アプリなどを公開しています。試しては壊して直しながら、実装に落ちる形で知見を積み上げるのが好きです。
-
 ## Tech Stack
 
 **Backend / Server**
@@ -61,25 +57,11 @@ Web アプリケーション開発を軸に、**Java / TypeScript / Python** を
 ![Vitest](https://img.shields.io/badge/Vitest-0F172A?style=flat-square\&logo=vitest\&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit-0F172A?style=flat-square\&logo=junit5\&logoColor=white)
 
-## Featured Projects
-| Project | Summary | Stack |
-| ------- | ------- | ----- |
-| **[SpecSketch](https://github.com/Ymmy833y/SpecSketch)** | UI 要素を選択して番号付きバッジを重ね、コメントや並び替えを加えたうえでスクリーンショット化できる Chrome 拡張。仕様確認、UAT、バグ報告、画面ドキュメント化を素早く進めるための実用ツール。 | TypeScript / Chrome Extension / Screenshot Tooling |
-| **[duplicate-issue-checker](https://github.com/Ymmy833y/duplicate-issue-checker)** | 指定した GitHub リポジトリの Issue / PR コメントを取得し、テキスト類似度から重複候補を探す Web アプリ。Issue 運用のノイズを減らす方向で作った実験プロジェクトです。 | Python / Flask / NLP / GitHub API |
-| **[todo-chat](https://github.com/Ymmy833y/todo-chat)** | Todo アプリに LLM エージェント機能を組み込んだ Web アプリ。Spring Boot / MyBatis / MySQL を土台にしつつ、LangChain4j や Semantic Kernel を試しながら AI 連携の実装を探っています。 | Java / Spring Boot / MyBatis / MySQL / LLM |
-| **[dbml-relationalizer](https://github.com/Ymmy833y/dbml-relationalizer)** | データベースのスキーマ情報と関係定義ファイルをもとに、テーブル間リレーションを DBML として生成する CLI。自動推論と手動定義の両方を扱えるようにしています。 | TypeScript / CLI / DBML / Schema Tooling |
-| **[memo-app](https://github.com/Ymmy833y/memo-app)** | ブラウザ上で完結する Markdown メモアプリ。リッチエディタ、IndexedDB 永続化、履歴、オートセーブ、検索、オフライン対応まで含めて、日常的に使いやすい形に寄せています。 | TypeScript / Markdown Editor / IndexedDB |
-| **[doc-search-chain](https://github.com/Ymmy833y/doc-search-chain)** | txt / html などのドキュメントを読み込ませ、内容に基づいて質問応答できる簡易 RAG アプリ。 | Python / LLM / Document Search |
-
 ## GitHub Insights
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ymmy833y/Ymmy833y/main/profile-summary-card-output/ocean_dark/1-repos-per-language.svg" />
   <img src="https://raw.githubusercontent.com/Ymmy833y/Ymmy833y/main/profile-summary-card-output/ocean_dark/2-most-commit-language.svg" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ymmy833y&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
 <p align="center">
